@@ -1,7 +1,13 @@
-def add(a, b):
+a = 10
+b = 3
+
+def add():
   tot = a + b
   return tot
 
-def mult(a, b):
-  totmult = a + b
+def mult():
+  totmult = a * b
   return totmult
+
+print(add)
+print(mult)
